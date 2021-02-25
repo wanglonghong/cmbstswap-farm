@@ -1,5 +1,5 @@
 {
-  "name": "CombustSwap",
+  "name": "CmbstSwap",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@openzeppelin/test-helpers": "^0.5.6",
-    "@pancakeswap/pancake-swap-lib": "^0.0.1",
+    "cmbstlib": "wanglonghong/cmbst-swap-lib#main",
     "dotenv": "^8.2.0",
     "truffle": "^5.1.58",
     "truffle-flattener": "^1.4.4"

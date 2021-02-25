@@ -1,9 +1,9 @@
 pragma solidity 0.6.12;
 
-import '@pancakeswap/pancake-swap-lib/contracts/math/SafeMath.sol';
-import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/IBEP20.sol';
-import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/SafeBEP20.sol';
-import '@pancakeswap/pancake-swap-lib/contracts/access/Ownable.sol';
+import 'cmbstlib/contracts/math/SafeMath.sol';
+import 'cmbstlib/contracts/token/BEP20/IBEP20.sol';
+import 'cmbstlib/contracts/token/BEP20/SafeBEP20.sol';
+import 'cmbstlib/contracts/access/Ownable.sol';
 
 
 
