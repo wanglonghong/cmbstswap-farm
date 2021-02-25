@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "CmbstSwap",
+=======
+  "name": "CombustSwap-Farm",
+>>>>>>> 32ee4e8bd93eadd787ff5b455e22615e6114b651
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
