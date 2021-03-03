@@ -110,6 +110,11 @@ contract MasterChef is Ownable {
         return poolInfo.length;
     }
 
+    // Update staking reward for bonus day
+    function updateStakingReward (uint256 stakingReward) public onlyOwner {
+        cmbstPerBlock = stakingReward;
+    }
+
     // Add a new lp to the pool. Can only be called by the owner.
     // XXX DO NOT add the same LP token more than once. Rewards will be messed up if you do.
     function add(uint256 _allocPoint, IBEP20 _lpToken, bool _withUpdate) public onlyOwner {
